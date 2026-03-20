@@ -65,5 +65,7 @@ IMAGEN CON LINK [![texto alternativo](url-imagen)](url-destino)
 ejemplos:
 [canva udpeo](https://udp.instructure.com/courses/43735/discussion_topics/543913) 
 
-
 [![perito](https://www.fulllife.com.mx/wp-content/uploads/2023/06/nota_3_desktop_fiesta_perfecta_julio_image.jpg)  
+
+[![pinteresttt](https://cdn-icons-png.flaticon.com/512/145/145808.png)](https://www.youtube.com/watch?v=NhKVUFVCjnA)
+
