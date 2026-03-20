@@ -69,3 +69,16 @@ ejemplos:
 
 [![pinteresttt](https://cdn-icons-png.flaticon.com/512/145/145808.png)](https://www.youtube.com/watch?v=NhKVUFVCjnA)
 
+**BLOQUES DE CODIGO**
+como colocar codigo de p5.js , para colocar backtick es : option+ corchete cerrado , al lado de enter
+```python print("Hola mundo")```
+
+
+
+
+
+COMO HACER TABLAS 
+COMO HACER EMOJIS: 
+:palabra emoji 
+🚀
+
