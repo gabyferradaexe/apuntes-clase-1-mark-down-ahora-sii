@@ -63,6 +63,7 @@ IMAGEN CON LINK [![texto alternativo](url-imagen)](url-destino)
 
 
 ejemplos:
-![peritos](https://www.fulllife.com.mx/la-fiesta-perfecta-para-tu-lomito-este-dia-del-perro/)    
- 
-  
+[canva udpeo](https://udp.instructure.com/courses/43735/discussion_topics/543913) 
+
+
+[![perito](https://www.fulllife.com.mx/wp-content/uploads/2023/06/nota_3_desktop_fiesta_perfecta_julio_image.jpg)  
