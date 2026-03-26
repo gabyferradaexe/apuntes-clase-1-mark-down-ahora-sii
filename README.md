@@ -86,7 +86,7 @@ Entre 1842 y 1843, ella tradujo al ingles y reviso , un articulo del italiano **
 
 - Se empezo a crear arte en la computadora empezaron en la decada del 60´, en medio de una escena artistica diversa y efervesciente, Artitas como : Vera Molnar, Manfred Mohr, Lillian Schwartz (USA y EUROP). Hiroshi Kawano, y computer technique group en (JAPONPON) y Waldemar Cordeiro en (SIUUU BRASILLLL). Se encuentran en los tops del llamado arte computacional
 
-##Expocision -----> **CYBERNETIC SERENDIPY** (Londres - 1968) / **Arte y cibernetica organizada por Jorge glusberg (Argentina che boludo - 1969)
+##Expocision -----> **CYBERNETIC SERENDIPY** (Londres - 1968) / **Arte y cibernetica organizada por Jorge glusberg** (Argentina che boludo - 1969)
 
 #**John y James Withney** (pioneros en el computer graphics animation)
 
