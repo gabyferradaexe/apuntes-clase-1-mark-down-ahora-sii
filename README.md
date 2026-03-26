@@ -59,7 +59,7 @@ Se considera la **PRIMERA MAQUINA De Calculo AUTOMATICA** , fue diseñada para r
 
   ___  
 
-5) Maquina difrencial (1991)**2**  (museo de las ciencias de londres)
+5) Maquina difrencial (1991) **2**  (museo de las ciencias de londres)
 
 (2002 La impresora) el museo de ciencias de londres, construyo la maquina diferencial 2 , siguiendo exactamente los palnos originales de Baggage, para celebrar el bicentenario del nacimiento de baggage. Funciona perfecto, el diseño era correcto, si la gestion hubiera sido distinta, perfectamente se hubiera podido crear en la epoca victoriana.
 
