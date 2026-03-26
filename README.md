@@ -28,7 +28,12 @@ b) **Si NO habia agujero** : La varilla chocaba contra la tarjeta, el gancho no 
 
 2) El sistema binario
 
-Aunque la maquina Jacquard no pensaba en Matematicas, **CREO** un sistema de LOGICA BINARIA
+Aunque la maquina Jacquard no pensaba en Matematicas, **CREO** un sistema de LOGICA BINARIA. La presencia o ausencia de materia (carton o aguejero) determinaba una accion. ES el antepasado directo del transistor moderno (paso de corriente vs no paso de corriente) 
+
+3) El pixel y la imagen rasterizada
+
+* Se entiende el tejido como una forma primigenia de imagen de mapa de BITS
+    * La tela constituye la rejilla (**GRID**) de soporte, donde cada interseccion entre trama y urdimbre funciona como un pixel individual. Bajo esta logica, La **tarjeta perforada** opera como el archivo digital (.JPG), enviando las *instrucciones precisas* (y especificas) sobre que puntos activar para componer la imagen visual.
 
 
 
