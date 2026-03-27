@@ -74,6 +74,10 @@ como colocar codigo de p5.js , para colocar backtick es : option+ corchete cerra
 ```python print("Hola mundo")```
 
 
+Si coloco una frase, oracion y abajo de esta una linea de : --------   , se agranda en negrita el texto 
+
+OMAIGATTTTT encima del jetski vamo a revolotear papoi
+-------------------------------------------------------------
 
 
 
