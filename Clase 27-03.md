@@ -12,6 +12,13 @@ Es una secuencia de instrucciones paso a paso, LOGICAS, DEFINIDAS, FINITAS Y ORD
 
 4)**Definicion**: Si sigues el mismo algoritmo 2 veces con los MISMOS DATOS, deberias obtener el mismo resultado!
 
+- !LA MINISCULA Y LA mayuscula son super importantes!
+- con el comando + + : se agranda la interfaz
+- SI queremos MOVIMIENTO lo tenemos que colocar en **function draw**, si NO queremos MOVIMIENTO, osea que quede con estela, lo colocamos en **setup**
+- No es necesario repetir los codigos en una misma figura, si cambiamos AHI SI, los escribimos de nuevo
+- **comando + shift** te ORDENA el CODIGO AUTOMATICAMENTE
+- SIEMPRE colocar al final del codigo **;**
+
 ###ESTRUCTURA
 
 * Input (Entrada) : La info o los ingredientes que necesitas para empezarrr
@@ -43,7 +50,7 @@ Es una secuencia de instrucciones paso a paso, LOGICAS, DEFINIDAS, FINITAS Y ORD
 #**P5.JS**  (Utiliza principalmente **JavaScript**)
 
 **OJITO** SIEMPREEE SE TERMINA COLCOANDO UN ; para cerrar el codigo si no puede tener problemas!!!!!
-**OJOOO PIOJOO** SIEMPRE TIENE QUE ESTAR UNA LLAVE } AL FINAL , SI NO LOS CODIGOS SALEN CON ERROR
+**OJOOO PIOJOO** SIEMPRE TIENE QUE ESTAR UNA LLAVE  que se llama fuction draw ----> } , AL FINAL , SI NO LOS CODIGOS SALEN CON ERROR
 
 -Libreria de JavaScript ----> P5.JS no es un lenguaje nuevo desde cero, sino un library de JavaScript, Que signifca esto? : Que usa toda la potencia y la sintaxis de JavaScript PEROOO te REGALA un "vocabulario" especializado para dibujar, animar y crear cosas visuales de forma mucho mais sencilla.
 
@@ -58,13 +65,13 @@ Es una secuencia de instrucciones paso a paso, LOGICAS, DEFINIDAS, FINITAS Y ORD
   * Que pasa aqui? : Dibujos fromas que cambian de pocision, detectas donde esta el raton o cambias colores gradualmente)
 
 ----------------------------------------------------------------
-**{CREATE CANVAS}**   
+**{CREATE CANVAS}**   (siempre va dentro del setup)
 
 Sintaxis ----> createCanvas([width], [height], [renderer], [canvas]);
 EJEMPLO ----> createCanvas(100, 100);
 
 - createCanvas (width, height); ----> Sirve para para crear el lienzo del canvas y determinar su tamaño en pixeles, solo de ponde una vez y SIEMPRE dentro del setup();
-- [Renderer] ----> Define el motor del renderizado 
+- [Renderer] ----> Define el motor del renderizado (es para crear cosas 3D)
   * **P2D (default)** : Es el modo 2D, Es el que usas por defecto si no escribes nada. Esta optimizado para formas basicas, texto e imagenes planas.
     * **WEBG**: Activa el modo 3D, Utiliza la tarjeta grafica (**GPU**) de tu computadora. Es **indispensable** si quieres usar funciones como **box(), sphere(), luces o texturas complejas**.
         * **[Canvas]** : Este es el parametro "oculto" y menos utilizado, pero súper útil si eres desarrollador web. Por defecto, p5.js crea un elemento <canvas> nuevo y lo pone en tu HTML.
@@ -87,7 +94,7 @@ EJEMPLO ----> background(250, 150, 228,150);
 - Escala de grises (1 n°): background(220); (donde 0 es negro y 255 blanco)
 - Color RGB (3 n°): background(255,0,0) (Rojo, Verde, Azul)
 - Nombres de los colores : background('blue'); (siempre entre comillas)
-- Transparencia (4 n°) : background(0, 0, 255, 50); (R,G,B y el cuarto numero es el canal **"Alpha"**)
+- Transparencia (4 n°) : background(0, 0, 255, 50); (R,G,B y el cuarto numero es el canal **"Alpha"**) osea colocamos un numero en el cuarto. 
 
 ESPACIO DE COLOR RGB 
 - R: Red [0 - 255]
@@ -101,7 +108,7 @@ ESPACIO DE COLOR HSV/ HSB
 - H: Hue [0 - 360o]
 - S: Saturation [0 - 100%]
 - B: Brightness [0 - 100%]
-- colorMode(HSB); ese es el codigo
+- colorMode(HSB); ese es el codigo (SE coloca en el SETUP!) , Ejemplo: Si le queiro bajar el brillo a un morado y que este en lila, simplemente pongo colormode y lo bajo.
 
 ESPACIO DE COLOR HSL
 - H: Hue [0 - 360o]
@@ -113,9 +120,11 @@ ESPACIO DE COLOR HSL
 Pongo el background en setup(); o en el draw(); ? -------> La pocision del background() determina si tu dibujo tiene "memoria" o si se "limpia" constantemente (igual yo lo coloco en el setup() abajo. 
 
 -------------------------------------------------------------
-{DIBUJAR EN EL P5.JS}
+**{DIBUJAR EN EL P5.JS}**
 
 - Para dibujar ahi, tenemos que entender que el Canvas FUNCIONA CON UN **SISTEMA DE COORDENADAS** **(x,y)** como un plano cartesiano , pero hay que tener en cuenta que el punto (0,0) NO esta en el CENTRO, sino en la esquina superior izquierda.
+- X es horizontal e Y es en vertical
+- Ejemplos: el punto de la esquina derecha seria 400x400 (porque eso mide el canvas 400x400) , el de la izq al final seria (0,400), el de la dere (400,0) y el punto medio seria 200x200
 
 ![plano cartesiano](https://p5js.org/_astro/coordinates.DW7JVAkD_Z13e1Vf.png) 
 
@@ -168,7 +177,7 @@ Pongo el background en setup(); o en el draw(); ? -------> La pocision del backg
    * Sintaxis: arc(x, y, w, h, start, stop)
     * Ejemplo: arc(250, 250, 100, 100, 270, 90)
 
- - **angleMode(DEGREES)**: La profe dijo que lo activaramos en el **setup()** PORQUE es mas facil controlar los angulos con este codigo
+ - **angleMode(DEGREES)**: La profe dijo que lo activaramos en el **function setup()** PORQUE es mas facil controlar los angulos con este codigo
   * En p5.js (y en la mayoria de los lenguajes de programación), el grado 0 NO está arriba, sino a la derecha (en el eje X positivo) , **Y se mueve en el sentido del reloj**
 
   - **0° / 0 rad:** A las 3 en punto (derecha)
@@ -186,3 +195,4 @@ Pongo el background en setup(); o en el draw(); ? -------> La pocision del backg
 - SE **entrega** con **link directo GITHUB** y la bitacora de github de las clases anteriores que tenemos anotada SERA EVALUADA TAMBBB
 
 - **SE ENTREGA ANTES DEL 10 DE ABRIL, OBVIOO ANTES DE LA CLASE!!!**
+- Los desafios tienen que estar publicos, YA ENTREGUEE!!!
