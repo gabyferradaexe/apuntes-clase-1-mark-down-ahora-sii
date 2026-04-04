@@ -73,6 +73,7 @@ EJEMPLO ----> createCanvas(100, 100);
 **{BACKGROUND}**
 
 Sintaxis ----> background(v1, v2, v3, [a]);
+
 EJEMPLO ----> background(250, 150, 228,150);
 
 - background(v1,v2,v3, [a]); -----> Nos sirve para designar **EL COLOR** de nuestro lienzo canvas / Se puede poner en el setup(); o en el draw(), pero TIENES RESULTADOS DIFERENTES
@@ -175,11 +176,13 @@ Pongo el background en setup(); o en el draw(); ? -------> La pocision del backg
   - **180° / PI:** A las 9 en punto (izquierda)
   - **270° / (PI + HALF_PI):** A las 12 en punto (arriba)
 
-![reloj angulos](https://lirte.pesquisa.ufabc.edu.br/matreematica/wp-content/uploads/sites/5/2021/11/circunferencia-com-angulos-1.png) 
+![reloj angulos](https://s3.eu-central-1.amazonaws.com/studysmarter-mediafiles/media/1865576/summary_images/SexaCircunferencia.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4OLDUDE42UZHAIET%2F20260329%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260329T231817Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=dad677852c0af742a1c7079a843809ac60d2d802edbefe2ac796842ea94a5d1d) 
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 **#SOLEMNE 1**
 
 - Debemos hacer un dibujo en un papel milimetrado,  inspirandonos en un artista que haga obras geometricas o abstractas , puede ser de 25x25 o 50x50 (mejor estaaaa/ para que calce mejor en el canvas de p5.js)
 - La entrega debe tener formato de bitacora (Github), en donde debemos presentar nuestro proyecto, comentar sobre el proceso de replica que hicimos ( de quien nos inspiramos , porque?, etcc...) , las dificultades encontradas y sus soluciones, el resultado, el código (comentado SUPERR IMPORTANTE COMENTAR AL LADO SIEMPRE) y el link a su proyecto en el editor de p5.js. Además incluir fotos de su dibujo y W.I.P.
-- SE **entrega** con **link directo GITHUB**
+- SE **entrega** con **link directo GITHUB** y la bitacora de github de las clases anteriores que tenemos anotada SERA EVALUADA TAMBBB
+
+- **SE ENTREGA ANTES DEL 10 DE ABRIL, OBVIOO ANTES DE LA CLASE!!!**
